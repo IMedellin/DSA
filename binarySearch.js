@@ -12,5 +12,5 @@ const linearSearch = (array, element) =>{
     }
 }
 
-console.log(linearSearch(regArray, 202))
+console.log(linearSearch(regArray, 75))
 
