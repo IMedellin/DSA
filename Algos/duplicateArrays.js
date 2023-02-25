@@ -19,7 +19,7 @@ const hasDuplicateValue2 = (array) => {
     let currentElement = array[i];
     if (!checkDuplicateValue.hasOwnProperty(currentElement)) {
       checkDuplicateValue[currentElement] = 1;
-    } else if (checkDuplicateValue.hasOwnProperty(currentElement)) {
+    } else {
       return "Has duplicate value";
     }
   }
@@ -27,4 +27,4 @@ const hasDuplicateValue2 = (array) => {
 }
 
 console.log(hasDuplicateValue([2, 4, 6, 8, 10, 12, 2]));
-console.log(hasDuplicateValue2([2, 4, 6, 8, 10, 12, 12]));
+console.log(hasDuplicateValue2([2, 4, 6, 8, 10, 12, 2]));
