@@ -1,3 +1,4 @@
+//O(n)
 const hasDuplicateValue = (array) => {
   const valueIndexArray = []; //put an arbitrary value (1) at the index === to the value; if value is 3 place a (1) at index 3;
 
@@ -11,6 +12,7 @@ const hasDuplicateValue = (array) => {
   return "No duplicate value";
 };
 
+//O(n)
 const hasDuplicateValue2 = (array) => {
   const checkDuplicateValue = {};
   for (let i = 0; i < array.length; i++) {
