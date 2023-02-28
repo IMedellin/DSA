@@ -2,9 +2,9 @@
 const greatestNumber = (array) => {
   let current = array[0];
   for (let i = 1; i < array.length; i++) {
-    let first = array[i];
-    if (current <= first) {
-      current = first
+    let nextElement = array[i];
+    if (current <= nextElement) {
+      current = nextElement;
     }
   }
   return current
