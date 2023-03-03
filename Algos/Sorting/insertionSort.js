@@ -12,4 +12,5 @@ const insertionSort = (array) =>{
     return array;
 };
 
-console.log(insertionSort([4,2,7,3,1]))
+console.log(insertionSort([-2,4,2,7,7,1,10]))
+console.log(insertionSort([24,1,2,7,8,1,12]))
