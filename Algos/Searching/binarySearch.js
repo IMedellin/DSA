@@ -13,22 +13,20 @@ const linearSearch = (array, element) => {
 // O(log n)
 const orderedArray = [3, 17, 75, 87, 203, 245, 265, 266, 275, 309]
 const binarySearch = (array, element) => {
-    let steps = 0;
     let start = 0;
     let end = array.length - 1;
     while (start <= end) {
         let midPoint = Math.floor((start + end) / 2);
         let middleValue = array[midPoint];
-        steps += 1
         if (element === middleValue) {
-            return midPoint + " Binary Search steps: " + steps;
+            return midPoint
         } else if (element < middleValue) {
             end = midPoint - 1;
         } else if (element > middleValue) {
             start = midPoint + 1;
         }
     }
-    return "NOT FOUND " + `Binary search steps: ${steps}`
+    return "NOT FOUND "
 }
 
 
