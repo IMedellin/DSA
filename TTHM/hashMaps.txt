@@ -1,0 +1,9 @@
+MDN Documentation on Map.prototype.get(). ///Also includes other Map methods as well as the global object Map itself.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get
+
+
+
+
+Hashmap Equivalent in JS:
+https://www.delftstack.com/howto/javascript/javascript-hashmap/
+
